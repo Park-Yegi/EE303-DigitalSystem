@@ -1,0 +1,384 @@
+$date
+	Mon May 28 22:10:52 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB2 $end
+$var wire 1 ! V $end
+$var wire 4 " F [3:0] $end
+$var wire 1 # C $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$var reg 1 & SEL $end
+$scope module uP2 $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var wire 1 & SEL $end
+$var wire 1 ! V $end
+$var wire 4 ) F [3:0] $end
+$var wire 4 * Cout [3:0] $end
+$var wire 1 # C $end
+$scope module uAU_1b_0 $end
+$var wire 1 + A $end
+$var wire 1 , B $end
+$var wire 1 & Cin $end
+$var wire 1 & SEL $end
+$var wire 1 - fin_B $end
+$var wire 1 . F $end
+$var wire 1 / Cout $end
+$scope module uFA_1b $end
+$var wire 1 + A $end
+$var wire 1 & Cin $end
+$var wire 1 / Cout $end
+$var wire 1 . F $end
+$var wire 1 0 and1 $end
+$var wire 1 1 and2 $end
+$var wire 1 2 xor1 $end
+$var wire 1 - Y $end
+$upscope $end
+$scope module uMUX $end
+$var wire 1 , B $end
+$var wire 1 & SEL $end
+$var wire 1 - Y $end
+$upscope $end
+$upscope $end
+$scope module uAU_1b_1 $end
+$var wire 1 3 A $end
+$var wire 1 4 B $end
+$var wire 1 5 Cin $end
+$var wire 1 & SEL $end
+$var wire 1 6 fin_B $end
+$var wire 1 7 F $end
+$var wire 1 8 Cout $end
+$scope module uFA_1b $end
+$var wire 1 3 A $end
+$var wire 1 5 Cin $end
+$var wire 1 8 Cout $end
+$var wire 1 7 F $end
+$var wire 1 9 and1 $end
+$var wire 1 : and2 $end
+$var wire 1 ; xor1 $end
+$var wire 1 6 Y $end
+$upscope $end
+$scope module uMUX $end
+$var wire 1 4 B $end
+$var wire 1 & SEL $end
+$var wire 1 6 Y $end
+$upscope $end
+$upscope $end
+$scope module uAU_1b_2 $end
+$var wire 1 < A $end
+$var wire 1 = B $end
+$var wire 1 > Cin $end
+$var wire 1 & SEL $end
+$var wire 1 ? fin_B $end
+$var wire 1 @ F $end
+$var wire 1 A Cout $end
+$scope module uFA_1b $end
+$var wire 1 < A $end
+$var wire 1 > Cin $end
+$var wire 1 A Cout $end
+$var wire 1 @ F $end
+$var wire 1 B and1 $end
+$var wire 1 C and2 $end
+$var wire 1 D xor1 $end
+$var wire 1 ? Y $end
+$upscope $end
+$scope module uMUX $end
+$var wire 1 = B $end
+$var wire 1 & SEL $end
+$var wire 1 ? Y $end
+$upscope $end
+$upscope $end
+$scope module uAU_1b_3 $end
+$var wire 1 E A $end
+$var wire 1 F B $end
+$var wire 1 G Cin $end
+$var wire 1 & SEL $end
+$var wire 1 H fin_B $end
+$var wire 1 I F $end
+$var wire 1 J Cout $end
+$scope module uFA_1b $end
+$var wire 1 E A $end
+$var wire 1 G Cin $end
+$var wire 1 J Cout $end
+$var wire 1 I F $end
+$var wire 1 K and1 $end
+$var wire 1 L and2 $end
+$var wire 1 M xor1 $end
+$var wire 1 H Y $end
+$upscope $end
+$scope module uMUX $end
+$var wire 1 F B $end
+$var wire 1 & SEL $end
+$var wire 1 H Y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+1D
+0C
+0B
+0A
+1@
+0?
+0>
+0=
+1<
+1;
+0:
+09
+08
+17
+16
+05
+14
+03
+12
+01
+00
+0/
+1.
+1-
+1,
+0+
+b0 *
+b111 )
+b11 (
+b100 '
+0&
+b11 %
+b100 $
+0#
+b111 "
+0!
+$end
+#10
+1!
+1I
+1G
+07
+b100 *
+1A
+b1001 "
+b1001 )
+0@
+0;
+1B
+0D
+06
+1?
+04
+1=
+b101 %
+b101 (
+#20
+1>
+0!
+18
+15
+0G
+19
+1M
+0.
+1/
+17
+b1110 "
+b1110 )
+1@
+b11 *
+0A
+16
+0?
+1H
+02
+10
+0;
+0D
+0B
+14
+0=
+1F
+1+
+13
+0<
+b1011 %
+b1011 (
+b11 $
+b11 '
+#30
+07
+1G
+05
+1A
+0!
+0/
+1.
+1C
+0@
+1#
+00
+12
+1D
+b1001 "
+b1001 )
+1I
+b1110 *
+1J
+0-
+1?
+0M
+1K
+0,
+1=
+1E
+b1110 %
+b1110 (
+b1011 $
+b1011 '
+#40
+1G
+0!
+0>
+1A
+1#
+05
+07
+08
+0C
+0@
+1L
+0I
+1J
+b1100 *
+0/
+06
+0-
+1?
+1H
+02
+0;
+09
+0D
+1B
+1M
+0K
+01
+b1 "
+b1 )
+1.
+1,
+0=
+0F
+0+
+03
+1<
+0E
+1&
+b11 %
+b11 (
+b100 $
+b100 '
+#50
+0#
+0J
+0!
+0L
+1I
+0G
+17
+b0 *
+0A
+b1111 "
+b1111 )
+1@
+1;
+0B
+1D
+16
+0?
+04
+1=
+b101 %
+b101 (
+#60
+1!
+1G
+1A
+1:
+1I
+15
+1C
+0M
+1/
+1>
+06
+1?
+0H
+11
+0.
+07
+b111 *
+18
+b1000 "
+b1000 )
+0@
+12
+1;
+09
+1D
+14
+0=
+1F
+1+
+13
+0<
+b1011 %
+b1011 (
+b11 $
+b11 '
+#70
+0G
+0A
+0!
+01
+1.
+0C
+1@
+0#
+10
+02
+0D
+b11 *
+0J
+1-
+0?
+0L
+b1101 "
+b1101 )
+1I
+1M
+0,
+1=
+1E
+b1110 %
+b1110 (
+b1011 $
+b1011 '
+#80

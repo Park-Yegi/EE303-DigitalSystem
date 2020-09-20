@@ -1,0 +1,111 @@
+$date
+	Mon May 28 23:29:27 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB3 $end
+$var wire 4 ! Out [3:0] $end
+$var reg 1 " CLK $end
+$var reg 1 # X $end
+$var reg 1 $ reset $end
+$scope module uP3 $end
+$var wire 1 " CLK $end
+$var wire 1 # X $end
+$var wire 1 $ reset $end
+$var reg 4 % Out [3:0] $end
+$var reg 2 & next_state [1:0] $end
+$var reg 2 ' state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b1 &
+b1 %
+1$
+1#
+1"
+b1 !
+$end
+#5
+0"
+#10
+b10 !
+b10 %
+b10 &
+b1 '
+1"
+0$
+#15
+0"
+#20
+b11 &
+b100 !
+b100 %
+b10 '
+1"
+#25
+0"
+#30
+b1000 !
+b1000 %
+b0 &
+b11 '
+1"
+#35
+0"
+#40
+b1 &
+b1 !
+b1 %
+b0 '
+1"
+#45
+0"
+#50
+b1000 !
+b1000 %
+b11 '
+b10 &
+1"
+0#
+#55
+0"
+#60
+b100 !
+b100 %
+b1 &
+b10 '
+1"
+#65
+0"
+#70
+b11 &
+b1 !
+b1 %
+b0 '
+1"
+1$
+#75
+0"
+#80
+b10 !
+b10 %
+b1 '
+b10 &
+1"
+1#
+0$
+#85
+0"
+#90
+b100 !
+b100 %
+b11 &
+b10 '
+1"

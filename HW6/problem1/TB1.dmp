@@ -1,0 +1,214 @@
+$date
+	Mon May 28 21:41:00 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB1 $end
+$var wire 4 ! OUT [3:0] $end
+$var reg 4 " I0 [3:0] $end
+$var reg 4 # I1 [3:0] $end
+$var reg 4 $ I2 [3:0] $end
+$var reg 4 % I3 [3:0] $end
+$var reg 4 & I4 [3:0] $end
+$var reg 4 ' I5 [3:0] $end
+$var reg 4 ( I6 [3:0] $end
+$var reg 4 ) I7 [3:0] $end
+$var reg 3 * S [2:0] $end
+$scope module uP1 $end
+$var wire 4 + I0 [3:0] $end
+$var wire 4 , I1 [3:0] $end
+$var wire 4 - I2 [3:0] $end
+$var wire 4 . I3 [3:0] $end
+$var wire 4 / I4 [3:0] $end
+$var wire 4 0 I5 [3:0] $end
+$var wire 4 1 I6 [3:0] $end
+$var wire 4 2 I7 [3:0] $end
+$var wire 3 3 S [2:0] $end
+$var wire 4 4 OUT [3:0] $end
+$var wire 4 5 MID2 [3:0] $end
+$var wire 4 6 MID1 [3:0] $end
+$scope module uMUX2TO1 $end
+$var wire 1 7 SEL $end
+$var wire 4 8 F [3:0] $end
+$var wire 4 9 B [3:0] $end
+$var wire 4 : A [3:0] $end
+$upscope $end
+$scope module uMUX4TO1_1 $end
+$var wire 4 ; A [3:0] $end
+$var wire 4 < B [3:0] $end
+$var wire 4 = C [3:0] $end
+$var wire 4 > D [3:0] $end
+$var wire 2 ? SEL [1:0] $end
+$var wire 4 @ F [3:0] $end
+$upscope $end
+$scope module uMUX4TO1_2 $end
+$var wire 4 A A [3:0] $end
+$var wire 4 B B [3:0] $end
+$var wire 4 C C [3:0] $end
+$var wire 4 D D [3:0] $end
+$var wire 2 E SEL [1:0] $end
+$var wire 4 F F [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 F
+b10 E
+b111 D
+b110 C
+b101 B
+b100 A
+b10 @
+b10 ?
+b11 >
+b10 =
+b1 <
+b0 ;
+b10 :
+b110 9
+b10 8
+07
+b10 6
+b110 5
+b10 4
+b10 3
+b111 2
+b110 1
+b101 0
+b100 /
+b11 .
+b10 -
+b1 ,
+b0 +
+b10 *
+b111 )
+b110 (
+b101 '
+b100 &
+b11 %
+b10 $
+b1 #
+b0 "
+b10 !
+$end
+#10
+b0 !
+b0 4
+b0 8
+b0 5
+b0 9
+b0 F
+b1010 6
+b1010 :
+b1010 @
+17
+b110 *
+b110 3
+b1111 )
+b1111 2
+b1111 D
+b0 (
+b0 1
+b0 C
+b1001 '
+b1001 0
+b1001 B
+b110 &
+b110 /
+b110 A
+b101 %
+b101 .
+b101 >
+b1010 $
+b1010 -
+b1010 =
+b11 #
+b11 ,
+b11 <
+b1100 "
+b1100 +
+b1100 ;
+#20
+b1110 !
+b1110 4
+b1110 8
+b1110 6
+b1110 :
+b1110 @
+b1000 5
+b1000 9
+b1000 F
+b0 ?
+b0 E
+07
+b0 *
+b0 3
+b1 )
+b1 2
+b1 D
+b10 (
+b10 1
+b10 C
+b100 '
+b100 0
+b100 B
+b1000 &
+b1000 /
+b1000 A
+b111 %
+b111 .
+b111 >
+b1011 $
+b1011 -
+b1011 =
+b1101 #
+b1101 ,
+b1101 <
+b1110 "
+b1110 +
+b1110 ;
+#30
+b1100 !
+b1100 4
+b1100 8
+b11 ?
+b11 E
+b1000 5
+b1000 9
+b1000 F
+b1100 6
+b1100 :
+b1100 @
+b11 *
+b11 3
+b1000 )
+b1000 2
+b1000 D
+b1001 (
+b1001 1
+b1001 C
+b1010 '
+b1010 0
+b1010 B
+b1011 &
+b1011 /
+b1011 A
+b1100 %
+b1100 .
+b1100 >
+b1101 $
+b1101 -
+b1101 =
+b1110 #
+b1110 ,
+b1110 <
+b1111 "
+b1111 +
+b1111 ;
+#40
